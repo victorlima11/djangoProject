@@ -7,3 +7,15 @@ def home(request):
 
 def contatos(resquest):
     return render(resquest, 'contatos.html')
+
+def blog(request):
+    return render(request, 'blog.html')
+
+def enderecos(request):
+    return render(request, 'enderecos.html')
+
+def parceiros(request):
+    return render(request, 'parceiros.html')
+
+def sobre(request):
+    return render(request, 'sobre.html')
