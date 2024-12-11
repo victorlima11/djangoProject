@@ -7,10 +7,6 @@
 </head>
 <body>
     <h1>HOME</h1>
-    <a href="{% url 'contatos' %}">Contatos</a>
-    <a href="{% url 'blog' %}">Blog</a>
-    <a href="{% url 'enderecos' %}">Endereços</a>
-    <a href="{% url 'parceiros' %}">Parceiros</a>
-    <a href="{% url 'sobre' %}">Sobre</a>
+    {% include 'menu.html' %}
 </body>
 </html>
